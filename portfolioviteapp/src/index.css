@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image: url("https://img.freepik.com/free-photo/multi-dimensional-urban-space-exotic-concepts-digital-painting_456031-82.jpg?t=st=1710220546~exp=1710224146~hmac=f950f91cb488a4cd0b5544b1448fa0a0d94621c9b84fa6f144cfa0b928cf4457&w=1380");
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(1px);
+}
+
+
+.text{
+    text-shadow: 1px 2px hsl(60, 100%, 56%);
+}
